@@ -1,19 +1,17 @@
 {% load staticfiles %}
 <html>
 <head>
-    <title>Hello World!</title>
-    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <title>Alltagshilfen aus dem 3D-Drucker</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-    <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
-    </div>
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
+    <div id="wrapper">
+        <div id="header">
+            <h1><a href="/">Alltagshilfen aus dem 3D-Drucker</a></h1>
+        </div>
+        <div id="main">
+            <div id="content">
                 {% block content %}
                 {% endblock %}
             </div>

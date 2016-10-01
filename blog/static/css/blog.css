@@ -1,46 +1,54 @@
-.page-header {
-    background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
+body, html {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00261C;
+}
+
+a {
+    color: #167f39;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 a, h2 a, h3 a {
     text-decoration: none;
 }
 
-.content {
-    margin-left: 40px;
+#wrapper {
+    width: 960px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: white;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+#header {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #167f39;
+}
+
+#header a {
+    color: #ffffff;
+}
+
+#main {
+    margin-top: 25px;
 }
 
 .date {
-    color: #828282;
-}
-
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
-    width: 100%;
-}
-
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
-
-.post {
-    margin-bottom: 70px;
-}
-
-.post h1 a, .post h1 a:visited {
-    color: #000000;
+    font-size: 0.8em;
+    color: #888888;
 }
