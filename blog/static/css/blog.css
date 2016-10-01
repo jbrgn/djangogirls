@@ -21,9 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
-h1 a, h2 a, h3 a {
+h1 a, h2 a, h3 a, #navigation a {
     text-decoration: none;
 }
 
@@ -44,8 +45,11 @@ h1 a, h2 a, h3 a {
     color: #ffffff;
 }
 
-#main {
-    margin-top: 25px;
+#navigation {
+    text-align: center;
+    padding: 6px 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
 }
 
 .date {
