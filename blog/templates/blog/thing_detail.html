@@ -1,0 +1,6 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <h2>{{ thing.title }}</h2>
+    <p>{{ thing.text |linebreaksbr |urlize }}</p>
+{% endblock %}

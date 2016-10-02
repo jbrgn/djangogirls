@@ -7,3 +7,7 @@ from .models import Thing
 def thing_list(request):
     things = Thing.objects.order_by('-created_date')
     return render(request, 'blog/thing_list.html', {'things': things})
+
+def thing_detail(request, thing_id):
+    thing = Thing.objects.get(id=thing_id)
+    return render(request, 'blog/thing_detail.html', {'thing': thing})

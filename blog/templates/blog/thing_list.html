@@ -4,9 +4,8 @@
     {% for thing in things %}
     <div class="thing">
 
-        <h2><a href="">{{ thing.title }}</a></h2>
-        <img class="preview_image" src="{{ thing.preview_image.url }}">
-        <p>{{ thing.text|linebreaksbr|urlize }}</p>
+        <h2><a href="/things/{{ thing.id }}/">{{ thing.title }}</a></h2>
+        <a href="/things/{{ thing.id }}/"><img class="preview_image" src="{{ thing.preview_image.url }}"></a>
         <div class="date">
             <p>published: {{ thing.created_date }}</p>
         </div>
