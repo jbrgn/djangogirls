@@ -5,6 +5,7 @@
     <div class="thing">
 
         <h2><a href="">{{ thing.title }}</a></h2>
+        <img class="preview_image" src="{{ thing.preview_image.url }}">
         <p>{{ thing.text|linebreaksbr|urlize }}</p>
         <div class="date">
             <p>published: {{ thing.created_date }}</p>

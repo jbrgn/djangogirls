@@ -22,6 +22,7 @@ class Post(models.Model):
 class Thing(models.Model):
     title = models.CharField(max_length=200)
     text = models.TextField()
+    preview_image = models.ImageField(upload_to='preview_images/', null=True, blank=True)
     created_date = models.DateTimeField(
             default=timezone.now)
 

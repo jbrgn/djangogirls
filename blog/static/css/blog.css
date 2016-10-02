@@ -56,3 +56,8 @@ h1 a, h2 a, h3 a, #navigation a {
     font-size: 0.8em;
     color: #888888;
 }
+
+.preview_image {
+    height: 250px;
+    width: 250px;
+}
