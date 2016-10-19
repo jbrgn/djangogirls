@@ -22,10 +22,15 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 h1 a, h2 a, h3 a, #navigation a {
     text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 10px;
 }
 
 #wrapper {
