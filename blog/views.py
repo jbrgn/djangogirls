@@ -11,3 +11,6 @@ def thing_list(request):
 def thing_detail(request, thing_id):
     thing = Thing.objects.get(id=thing_id)
     return render(request, 'blog/thing_detail.html', {'thing': thing})
+
+def about(request):
+    return render(request, 'blog/about.html')
