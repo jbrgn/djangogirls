@@ -1,6 +1,9 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+
+<div id="things-container">
+
     {% for thing in things %}
     <div class="thing">
 
@@ -11,4 +14,7 @@
         </div>
     </div>
     {% endfor %}
+
+</div>
+
 {% endblock %}
