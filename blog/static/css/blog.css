@@ -79,3 +79,18 @@ h2 {
 .thing {
     margin-right: 100px;
 }
+
+#detail-content {
+    display: flex; 
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#detail-text, #detail-images {
+    width: 48%;
+}
+
+#detail-images img { 
+    width: 100%; 
+}
